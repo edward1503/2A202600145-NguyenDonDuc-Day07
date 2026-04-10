@@ -141,10 +141,10 @@ Giải thích cách tiếp cận của bạn khi implement các phần chính tr
 ### Test Results
 
 ```
-tests/test_solution.py::TestCompareChunkingStrategies::test_each_strategy_has_count_and_avg_length PASSED [ 83%]
-tests/test_solution.py::TestCompareChunkingStrategies::test_returns_three_strategies PASSED [ 85%]
-...
-============================= 42 passed in 0.16s ==============================
+tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_returns_false_for_nonexistent_doc PASSED [ 97%]
+tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_returns_true_for_existing_doc PASSED [100%]
+
+======================================= 42 passed in 0.76s ========================================
 ```
 
 **Số tests pass:** 42 / 42
