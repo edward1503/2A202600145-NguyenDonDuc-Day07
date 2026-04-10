@@ -105,8 +105,8 @@ Chạy `ChunkingStrategyComparator().compare()` trên 2-3 tài liệu:
 | Thành viên | Strategy | Retrieval Score (/10) | Điểm mạnh | Điểm yếu |
 |-----------|----------|----------------------|-----------|----------|
 | Tôi | Recursive | 9.0 | Giữ ngữ cảnh block rất tốt. | Phụ thuộc vào separator. |
-| [Tên A] | Sentence | 8.0 | Readability cao. | Đôi khi chunk quá ngắn. |
-| [Tên B] | Fixed | 6.5 | Đơn giản, tốc độ nhanh. | Cắt cụt ý nghĩa. |
+| Luân | Sentence | 8.0 | Readability cao. | Đôi khi chunk quá ngắn. |
+| Hoàng | Fixed | 6.5 | Đơn giản, tốc độ nhanh. | Cắt cụt ý nghĩa. |
 
 **Strategy nào tốt nhất cho domain này? Tại sao?**
 > *RecursiveChunker là tốt nhất vì các tài liệu Markdown và Readme có cấu trúc phân cấp rõ ràng. Việc giữ các đoạn văn (\n\n) đi liền nhau giúp LLM dễ dàng hiểu ý chính của đoạn đó hơn là nhận các mẩu câu rời rạc.*
